@@ -7,9 +7,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Point-pixel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f873bf9436.js" crossorigin="anonymous"></script>
 </head>
+<Style>
+    body {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .mystyle{
+        display: none;
+     
+    }
+</Style>
+
+<body>
+    <!-- header -->
+    <DIV class="container md:flex   items-center justify-between mx-auto   p-5 rounded-lg   shadow-cyan-300 shadow-sm">
+        <!--  navbar start  -->
+        <DIV class="shadow-lg rounded-lg p-2 inline-block">
+            <div class=" flex items-center ">
+                <div class="shadow-sm  p-1 rounded-full bg-black inline-block"></div>
+                <div class="shadow-sm  p-2 rounded-full  bg-green-500 inline-block"></div>
+                <div class="shadow-sm  text-white  rounded-full bg-blue-500 inline-block"><i class="fa-solid fa-keyboard text-sm p-1"></i>
+                </div>
+            </div>
+            <!-- <div class="w-2 h-2 bg-black absolute left-7 top-1/4 rounded-full"></div> -->
+            <div class=" flex items-center ">
+                <div class="shadow-sm  text-white bg-red-500 inline-block"><i class="fa-solid fa-computer-mouse text-sm p-1"></i>
+                </div>
+                <div class="shadow-sm  w-3 h-4  bg-cyan-500 inline-block"></div>
+                <div class="shadow-sm  w-2 h-3  bg-yellow-500 inline-block"></div>
+            </div>
+        </DIV> <!--  navbar end  -->
+
+        <div onclick="myFunction()" class="bg-green-200 md:hidden  text-gray-600 float-right  text-2xl rounded-full shadow-md"><i
+                class="p-5 fa-solid fa-bars"></i> </div>
+
+
+
+
+
+
+
+        <div id="myDIV" class="mt-5">
+            <ul class="md:flex  md:space-x-10  p-5 text-black border-2 border-green-100 rounded-md  ">
+                <li class="   p-2 ">HOME</li>
+                <li class="   p-2 shadow-md text-lg  text-gray-500  rounded-sm ">CONTENT</li>
+                <li class="   p-2 ">PORTFOLIO</li>
+                <li class="   p-2 ">WEBSITE</li>
+                <li class="   p-2 ">ABOUT</li>
+
+            </ul>
+        </div>
+
+
+    </DIV>
+
 
 </body>
 
+<script>
+    function myFunction() {
+       var element = document.getElementById("myDIV");
+       element.classList.toggle("mystyle");
+    }
+    </script>
 </html>
