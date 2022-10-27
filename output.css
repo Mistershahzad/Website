@@ -611,6 +611,10 @@ video {
   visibility: visible;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .collapse {
   visibility: collapse;
 }
@@ -1014,12 +1018,24 @@ video {
   width: 13rem;
 }
 
-.w-\[200px\] {
-  width: 200px;
-}
-
 .w-11 {
   width: 2.75rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-44 {
+  width: 11rem;
 }
 
 .flex-none {
@@ -1613,6 +1629,11 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-medium {
