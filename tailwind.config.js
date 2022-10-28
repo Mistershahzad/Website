@@ -2,7 +2,10 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }
+// font-family: 'Sulphur Point', sans-serif;
