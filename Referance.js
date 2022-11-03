@@ -2,21 +2,24 @@
 Javascript console API 
 JavaScript Variables
 
-Data types in JavaScript..
+// Data types in JavaScript
 String
 Objects
 Booleans
 
 // 1. Primitive data types: undefined, null, number, string, boolean, symbol
 // 2. Reference data types: Arrays and Objects
+
 // Operators in JavaScript
 // Arithmetic Operators
 // Assignment Operators
 // Comparison Operators
 // Logical Operators
-// DRY
-// Conditionals in JavaScript
-// Single if statement
+
+// JavaScript Nested Loop 
+
+Conditionals in JavaScript
+Single if statement
 // if - else statement
 // else
 // if-else Ladder
