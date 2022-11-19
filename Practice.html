@@ -6,17 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+
+
+
 </head>
 
 <body>
 
-    <h1>look</h1>
+    <input type="text" id="text">
+    <button onclick="fun()">submit
 
-    <script>
+    </button>
 
+    <p id="p"></p>
 
-    </script>
+    <p id="pp"></p>
 
 </body>
+
+<script>
+    var str = ["first", "second", "three"]
+    let textbox = document.getElementById("text");
+
+
+    function fun() {
+        str.push(textbox.value);
+    }
+
+    console.log(str)
+
+
+
+    document.getElementById("p").innerHTML = str;
+</script>
+
 
 </html>
