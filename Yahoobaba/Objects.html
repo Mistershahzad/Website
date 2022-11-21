@@ -13,17 +13,61 @@
             lname: 'baba',
             age: 25,
             email: 'hello@.com',
-            Lastname : ['look','like','here','game',],
-            
-            fun : function(){
+            Lastname: ['look', 'like', 'here', 'game',],
+
+            fun: function () {
                 return 25000;
             },
         }
 
-        // document.write(a);
-        // console.log(a);
-        // document.write(a.Lastname[2]);   
+        document.write(a);
+        console.log(a);
+        document.write(a.Lastname[2]);   
         document.write(a.fun());
+
+
+
+        var person = new Object();
+
+        person.first = 'name';
+        person.Last = 'second';
+        person.age = 25;
+
+        console.log(person);
+        document.write(person['first'])
+
+
+
+
+
+
+        var student = [
+            { name: 'ram', age: 15 },
+            { name: 'karan', age: 13 },
+            { name: 'rahul', age: 14 },
+        ];
+
+        for (var a = 0; a < student.length; a++) {
+
+            document.write(student[a].name + "" + student[a].age + "<br>");
+        }
+
+
+
+
+
+
+
+        const a = {
+            name: "ram",
+            age: 25
+        };
+
+        a.name = "yahoo baba";  
+        a.age = 55;
+        console.log(a);
+
+
 
 
     </script>
